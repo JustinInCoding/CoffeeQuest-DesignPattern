@@ -12,6 +12,7 @@
 		9861D9E82BBB6AFF00773C5C /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D9E72BBB6AFF00773C5C /* Business.swift */; };
 		9861D9EA2BBB6B5000773C5C /* BusinessSearchClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D9E92BBB6B5000773C5C /* BusinessSearchClient.swift */; };
 		9861D9EC2BBB6C4600773C5C /* YLPClient+BusinessSearchClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D9EB2BBB6C4600773C5C /* YLPClient+BusinessSearchClient.swift */; };
+		9861D9EE2BBB78BD00773C5C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D9ED2BBB78BD00773C5C /* Filter.swift */; };
 		C35933852023BF5700D85500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35933842023BF5700D85500 /* AppDelegate.swift */; };
 		C35933872023BF5700D85500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35933862023BF5700D85500 /* ViewController.swift */; };
 		C359338A2023BF5700D85500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35933882023BF5700D85500 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		9861D9E72BBB6AFF00773C5C /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		9861D9E92BBB6B5000773C5C /* BusinessSearchClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearchClient.swift; sourceTree = "<group>"; };
 		9861D9EB2BBB6C4600773C5C /* YLPClient+BusinessSearchClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YLPClient+BusinessSearchClient.swift"; sourceTree = "<group>"; };
+		9861D9ED2BBB78BD00773C5C /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		C35933812023BF5700D85500 /* CoffeeQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35933842023BF5700D85500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C35933862023BF5700D85500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				9861D9E72BBB6AFF00773C5C /* Business.swift */,
+				9861D9ED2BBB78BD00773C5C /* Filter.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				C35933972023D71C00D85500 /* BusinessMapViewModel.swift in Sources */,
 				9861D9EA2BBB6B5000773C5C /* BusinessSearchClient.swift in Sources */,
+				9861D9EE2BBB78BD00773C5C /* Filter.swift in Sources */,
 				4252EAAA2023E05900847430 /* APIKeys.swift in Sources */,
 				9861D9E32BBB60E300773C5C /* AnnotationFactory.swift in Sources */,
 				9861D9E82BBB6AFF00773C5C /* Business.swift in Sources */,
